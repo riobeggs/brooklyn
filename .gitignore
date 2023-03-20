@@ -1,2 +1,9 @@
 .venv
 .DS_Store
+test.py
+__pycache__
+colour_palette_img
+csv_files
+examples
+posters
+*.psd 
