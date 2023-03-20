@@ -102,8 +102,8 @@ class Data:
             os.mkdir("csv_files")
 
         columns = [
-            "dog_image",
             "dog_name",
+            "dog_image",
             "colour_1",
             "colour_2",
             "colour_3",
@@ -119,8 +119,8 @@ class Data:
             for row in range(self._count):
                 writer.writerow(
                     [
-                        self._images[row],
                         self._names[row],
+                        self._images[row],
                         self._colour_1[row],
                         self._colour_2[row],
                         self._colour_3[row],
